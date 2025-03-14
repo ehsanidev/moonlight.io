@@ -1,0 +1,20 @@
+.scrollup {
+    position: fixed;
+    right: 2rem;
+    bottom: -20%;
+    transition: 0.4rem;
+
+    &:hover {
+        opacity: 1;
+    }
+
+    &__icon {
+        font-size: 2rem;
+        color: var(--primary-color);
+        opacity: 0.8;
+    }
+}
+
+.show-scroll {
+    bottom: 3rem;
+}
