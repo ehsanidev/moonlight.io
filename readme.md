@@ -1,115 +1,89 @@
-# Frontend Mentor - Browser extensions manager UI solution
+Moonlight.io Landing Page
 
-This is a solution to the [Browser extensions manager UI challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/browser-extension-manager-ui-yNZnOfsMAp). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+A beautifully designed, responsive landing page built with modern frontend technologies. This project showcases advanced SCSS skills and responsive design principles, featuring a dark/light mode toggle and smooth animations.
 
-## Table of contents
+./images/preview.jpg 🔺 Preview of the Moonlight.io landing page
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+🚀 Live Demo
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+You can view the live project here:
+https://landingpage-moonlight.netlify.app
 
-## Overview
+📁 Project Structure
 
-### The challenge
-
-Users should be able to:
-
-- Toggle extensions between active and inactive states
-- Filter active and inactive extensions
-- Remove extensions from the list
-- Select their color theme
-- View the optimal layout for the interface depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
-
-### Screenshot
-
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
-
-### Built with
-
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
-### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
 ```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+moonlight.io/
+├── images/               # All project images and assets
+├── js/                   # JavaScript functionality
+│   └── main.js           # Main JavaScript file
+├── scss/                 # SCSS source files
+│   └── main.scss         # Main stylesheet
+├── .gitignore            # Git ignore file
+├── index.html            # Main HTML file
+└── readme.md             # Project documentation
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+🛠️ Tech Stack
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+· HTML5: Semantic and accessible markup
+· SCSS/CSS3: Advanced styling with Sass features
+· JavaScript: Interactive functionality
+· Responsive Design: Mobile-first approach
 
-### Continued development
+✨ Features
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+· Dark/Light Mode: User-toggleable theme switching
+· Fully Responsive: Optimized for all device sizes (mobile, tablet, desktop)
+· Modern Navigation: Responsive navbar with hamburger menu for mobile
+· Smooth Animations: CSS transitions and hover effects
+· Clean UI Design: Modern and professional appearance
+· SCSS Architecture: Organized with variables, mixins, and nesting
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+🎨 Design Features
 
-### Useful resources
+· Custom dark/light color schemes
+· Modern footer design
+· Interactive hover states
+· Smooth scrolling navigation
+· Responsive grid layout
+· Professional typography
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+🧠 Learning Objectives
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+This project was built to master:
 
-## Author
+· Advanced SCSS features (variables, nesting, mixins)
+· Responsive web design principles
+· CSS Flexbox and Grid layouts
+· JavaScript for interactive elements
+· Cross-browser compatibility
+· Performance optimization techniques
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+📦 Installation & Setup
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+1. Clone the repository
+   ```bash
+   git clone https://github.com/ehsanidev/moonlight.io.git
+   cd moonlight.io
+   ```
+2. View the project Since this is a static site, you can open the index.html file directly in your browser or use a local server:
+   Using Live Server (VSCode extension):
+   · Right-click on index.html and select "Open with Live Server"
+   Using Python:
+   ```bash
+   python -m http.server 8000
+   ```
+   Then visit http://localhost:8000
 
-## Acknowledgments
+🚀 Deployment
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+The project is deployed on Netlify and can be easily updated by connecting your GitHub repository for continuous deployment.
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+---
+
+👩‍💻 Developer
+
+· GitHub: @ehsanidev
+· LinkedIn: zahraehsani 
+
+---
